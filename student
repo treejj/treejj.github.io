@@ -1,48 +1,4 @@
 using System;
-
-namespace HelloWorld
-{
-  class Program
-  {
-    static void Main(string[] args)
-    {
-      Hinhhoc h1 = new Hinhhoc();
-      HinhCN h2 = new HinhCN();
-      h1.CANH = 3;
-      h1.Ve();
-      h2.Ve();
-      h2.canh = 3;
-    }
-  }
-  class Hinhhoc{
-  //1.truong
- 	int canh;
-  //2.thuoc tinh
-  public int CANH{
-	get{ return canh;}
-    set{ canh = value;}
-   }
-  //3.phuong thuc
-  	public void Ve(){
-    	Console.WriteLine("Toi la hinh hoc.");
-  
-}
-}
-	class HinhCN : Hinhhoc {
-    	public void Ve(){
-        	Console.WriteLine("Toi la hinh chu nhat");
-}
-}
-}
-Bạn đã gửi Hôm nay lúc 10:56
-16:20
-Bạn đã gửi Hôm nay lúc 16:20
-alo alo
-Bạn đã gửi Hôm nay lúc 16:21
-xin code alo
-
-Brumz đã gửi Hôm nay lúc 16:30
-using System;
 using System.Collections.Generic;
 using System.Text;
 
